@@ -45,22 +45,16 @@ noremap = nzz
 noremap - Nzz
 noremap <LEADER><CR> :nohlsearch<CR>
 
-noremap n h
-noremap u k
-noremap e j
-noremap i l
-noremap U 5k
-noremap E 5j
-noremap N 7h
-noremap I 7l
+
+noremap K 5k
+noremap J 5j
+noremap H 7h
+noremap L 7l
 " N key: go to the start of the line
 noremap <C-n> 0
 " I key: go to the end of the line
 noremap <C-i> $
 
-noremap k i
-noremap K I
-noremap l u
 
 map s <nop>
 map S :w<CR>
@@ -68,10 +62,10 @@ map Q :q<CR>
 map R :source $MYVIMRC<CR>
 map ; :
 
-map si :set splitright<CR>:vsplit<CR>
-map sn :set nosplitright<CR>:vsplit<CR>
-map su :set nosplitbelow<CR>:split<CR>
-map se :set splitbelow<CR>:split<CR>
+map sd :set splitright<CR>:vsplit<CR>
+map sa :set nosplitright<CR>:vsplit<CR>
+map sw :set nosplitbelow<CR>:split<CR>
+map ss :set splitbelow<CR>:split<CR>
 
 map <LEADER>i <C-w>l
 map <LEADER>u <C-w>k
